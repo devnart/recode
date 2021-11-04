@@ -1,0 +1,395 @@
+section {
+  position: relative;
+  background-color: white;
+}
+
+.section {
+  padding: 6.9rem 1.5rem;
+}
+
+.section.hero {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*
+ * ::::::::::: Introduction Section Styles :::::::::::
+ */
+.introduction {
+  background-color: white;
+  padding: 6rem 1.5rem;
+}
+
+/*
+ * ::::::::::: Services Section Styles :::::::::::
+ */
+.services {
+  background-color: #fafafa;
+  padding-bottom: 6.5rem;
+}
+
+/*
+ * ::::::::::: Services Section Styles :::::::::::
+ */
+.stories {
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(70%, white), color-stop(30%, #000000));
+  background: linear-gradient(to top, white 70%, #000000 30%);
+}
+
+.stories.style-2 {
+  background: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(68%, white), color-stop(32%, #fafafa));
+  background: linear-gradient(to bottom, white 68%, #fafafa 32%);
+}
+
+.welcome-section {
+  background: #fafafa;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(65%, #fafafa), color-stop(35%, #000000));
+  background: linear-gradient(to top, #fafafa 65%, #000000 35%);
+  padding: 1rem 1.5rem;
+}
+
+.welcome-section .section-body {
+  background-color: #2231f6;
+  max-width: 1450px;
+  margin: 0 auto;
+  margin-top: -16px;
+  padding: 3.6rem 0;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 1px 17px 3px rgba(166, 166, 166, 0.22);
+          box-shadow: 2px 1px 17px 3px rgba(166, 166, 166, 0.22);
+}
+
+.welcome-section .section-body p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.welcome-section .section-body p:not(.heading-title-top) {
+  font-size: 19px;
+  padding-top: 47px;
+}
+
+.welcome-section .section-body .heading-title {
+  color: white;
+  line-height: 1.5;
+}
+
+.welcome-section.bottom {
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(65%, #000000), color-stop(35%, white));
+  background: linear-gradient(to top, #000000 65%, white 35%);
+  padding: 1rem 1.5rem;
+  margin-bottom: -1px;
+}
+
+.welcome-section.bottom .section-body {
+  padding: 4.8rem 0;
+}
+
+.welcome-section.bottom .section-body .button {
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  font-weight: 500;
+  height: 3em;
+}
+
+.welcome-section.bottom .section-body .button:hover {
+  color: #F5104E;
+}
+
+.welcome-section.welcome-section-fullwidth {
+  padding: 0;
+}
+
+.welcome-section.welcome-section-fullwidth .section-body {
+  max-width: 100%;
+  border-radius: 0;
+}
+
+.welcome-section.mixed-background {
+  padding: 0 1.5rem;
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(55%, white), color-stop(45%, #000000));
+  background: linear-gradient(to top, white 55%, #000000 45%);
+}
+
+.welcome-section.mixed-background .section-body {
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.welcome-section.mixed-background .section-body .works-latest .works-latest-item img {
+  border-radius: 5px;
+}
+
+.welcome-section.mixed-background .section-body .works-latest .works-latest-item .works-latest-item-icon {
+  left: 52%;
+}
+
+body.welcome-section-fullwidth .welcome-section:not(.bottom) {
+  padding: 0;
+}
+
+body.welcome-section-fullwidth .welcome-section:not(.bottom) .section-body {
+  max-width: 100%;
+  border-radius: 0;
+}
+
+body.welcome-section-fullheight .welcome-section.bottom {
+  padding-bottom: 7rem;
+}
+
+body.welcome-section-primary-light .welcome-section.bottom {
+  background: #fafafa;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(65%, #000000), color-stop(35%, #fafafa));
+  background: linear-gradient(to top, #000000 65%, #fafafa 35%);
+}
+
+body.welcome-section-primary-light .clients-section {
+  background: #fafafa;
+}
+
+/*
+ * ::::::::::: Works Section Styles :::::::::::
+ */
+.works-list {
+  background-color: white;
+  padding-bottom: 6rem;
+}
+
+/*
+ * ::::::::::: Testimonials Section Styles :::::::::::
+ */
+.testimonials-list {
+  background-color: #fafafa;
+}
+
+/*
+ * ::::::::::: Pricing Table Section Styles :::::::::::
+ */
+.pricingtable {
+  background-color: white;
+}
+
+/*
+ * ::::::::::: Subscribe Section Styles :::::::::::
+ */
+.subscribe-section {
+  padding: 7.3rem 1.5rem;
+  background-color: white;
+}
+
+.subscribe-section .heading-title {
+  padding-bottom: 27px;
+  margin-bottom: 0 !important;
+}
+
+.subscribe-section .heading-title:after {
+  display: none;
+}
+
+.subscribe-section p {
+  text-align: center;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-bottom: 40px;
+}
+
+.page-elements .subscribe-section {
+  background: inherit;
+}
+
+/*
+ * ::::::::::: Latest News Section Styles :::::::::::
+ */
+.latest-news,
+.slider {
+  background-color: white;
+}
+
+/*
+ * ::::::::::: Get In Touch Section Styles :::::::::::
+ */
+.get-in-touch {
+  background-color: #fafafa;
+  padding-bottom: 6.5rem;
+}
+
+.get-in-touch .box-item p {
+  margin-bottom: 15px;
+}
+
+/*
+ * ::::::::::: Instagram Feed Section Styles :::::::::::
+ */
+.instagram-feed {
+  background: white;
+}
+
+.site-footer-bottom .section {
+  padding: 4.4rem 1.5rem 4rem;
+  background: white;
+}
+
+/*
+ * ::::::::::: Intro About Section Styles :::::::::::
+ */
+.intro-about {
+  background-color: white;
+}
+
+/*
+ * ::::::::::: Team Section Styles :::::::::::
+ */
+.our-team {
+  background-color: white;
+  padding-bottom: 4rem;
+}
+
+/*
+ * ::::::::::: Counters Section Styles :::::::::::
+ */
+.counters {
+  background-color: #fafafa;
+}
+
+/*
+ * ::::::::::: Contact form Section Styles :::::::::::
+ */
+.contact-form {
+  background-color: white;
+}
+
+/*
+ * ::::::::::: Hero Custom Sections Styles :::::::::::
+ */
+.hero.carousel {
+  padding: 5rem 0 4rem;
+}
+
+.hero.instagram-feed {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.hero.instagram-feed .heading-title {
+  display: none;
+}
+
+/*
+ * ::::::::::: Blog Section Styles :::::::::::
+ */
+.content-with-sidebar {
+  background-color: white;
+  padding: 6rem 1.5rem;
+}
+
+/*
+ * ::::::::::: Portfolio Single Work Section Styles :::::::::::
+ */
+.portfolio-single {
+  background-color: white;
+  padding: 7.5rem 1.5rem;
+}
+
+/*
+ * ::::::::::: Portfolio Related Works Section Styles :::::::::::
+ */
+.related-works {
+  background-color: white;
+}
+
+/*
+ * ::::::::::: Portfolio WorksNavigation Section Styles :::::::::::
+ */
+.works-navigation {
+  background-color: #fafafa;
+  padding: 4rem 1.5rem;
+}
+
+.fun-facts .hero-body {
+  padding-bottom: 4rem;
+  padding-top: 7rem;
+}
+
+.fun-facts .hero-body .heading-title {
+  color: white;
+}
+
+.fun-facts .hero-body .heading-title-bottom {
+  color: white;
+  font-size: 18px;
+}
+
+.fun-facts .hero-body .counterup .title {
+  color: white;
+}
+
+.fun-facts .hero-body .counterup .heading {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fun-facts .ken-burns-background {
+  -webkit-animation: kenburns-2 40s infinite;
+          animation: kenburns-2 40s infinite;
+}
+
+.clients-section {
+  padding: 4rem 0;
+}
+
+.watch-video .works-latest .works-latest-item .works-latest-item-icon {
+  top: 57%;
+  left: 57%;
+}
+
+.watch-video .works-latest .works-latest-item .works-latest-item-icon .icon {
+  height: 65px;
+  width: 65px;
+  background-color: white;
+  opacity: 1;
+  color: #2231f6;
+}
+
+.watch-video .works-latest .works-latest-item .works-latest-item-icon .icon:hover {
+  color: #F5104E;
+}
+
+.watch-video .works-latest .works-latest-item .works-latest-item-icon .ripple-effect:before,
+.watch-video .works-latest .works-latest-item .works-latest-item-icon .ripple-effect:after {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.watch-video p:not(.heading-title-top) {
+  font-size: 17.5px;
+  padding-bottom: 15px;
+}
+
+.minimal-template p:not(.heading-title-top) {
+  font-size: 17px;
+  padding-bottom: 18px;
+}
+
+.minimal-template .boxes-style-3 .box-item .media-left,
+.minimal-template .boxes-style-6 .box-item .media-left {
+  min-width: 42px;
+}
+
+.minimal-template .boxes-style-1 .box-item p,
+.minimal-template .boxes-style-3 .box-item p,
+.minimal-template .boxes-style-5 .box-item p {
+  margin-bottom: 0;
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+
+.minimal-template .works-latest .works-latest-item img {
+  max-width: 530px;
+}
+
+/*# sourceMappingURL=../_maps/modules/sections.css.map */
